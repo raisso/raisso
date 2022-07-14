@@ -1,0 +1,39 @@
+{{ if .enable }}
+{{ $odd := false }}
+{{ $type := .type }}
+{{ $lead := .lead }}
+{{ $layout := .layout | default "primary" }}
+{{ $class := .class }}
+<!-- ======= Benefits Section ======= -->
+  <section class="benefit-section">
+  	<div class="container">
+    	<div class="row">
+        <div class="col-md-12 text-center">
+            <div class="d-flex align-items-center justify-content-center mb-2"><span class="custom-line">&nbsp;</span> 
+              <h3>{{.subHeading}}</h3>
+            </div>
+            <h2>{{.heading}}</h2>
+            <p>{{.text | markdownify}} </p>
+        </div>
+      </div>
+            
+        <div class="row carouselsection">
+        	<div class="owl-carousel owl-theme">
+            {{ range $i, $data := .lists }}
+              <div class="item">
+							  <div class="icon-box">
+                  {{ with .icon }}
+                  <div class="icon"><img src="{{.}}" alt="icon" class="img-fluid"></div>
+                  {{end}}
+                  <h3>{{.heading}}</h3>
+                  {{.text | markdownify }}
+                </div>
+			 		    </div>
+            {{ end }}
+
+
+				</div>
+        </div>
+    </div>
+  </section>
+  {{end}}

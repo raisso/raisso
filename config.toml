@@ -1,0 +1,153 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Raisso'
+
+[menu]
+[[menu.main]]
+  identifier = 'Home'
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  identifier = 'Staffing Services'
+  name = 'Staffing Services'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 2
+  hasChildren = true
+[[menu.main]]
+  parent =  "Staffing Services"
+  identifier = 'Healthcare Staffing'
+  name = 'Healthcare Staffing'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 11
+[[menu.main]]
+  parent =  "Staffing Services"
+  identifier = 'IT Straffing'
+  name = 'IT Straffing'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 22
+[[menu.main]]
+  identifier = 'IT Solutions'
+  name = 'IT Solutions'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 3
+  hasChildren = 'true'
+[[menu.main]]
+  parent =  "IT Solutions"
+  identifier = 'Blockchain Healthcare Solutions'
+  name = 'Blockchain Healthcare Solutions'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 1
+[[menu.main]]
+  parent =  "IT Solutions"
+  identifier = 'Healthcare Application Development'
+  name = 'Healthcare Application Development'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 2
+[[menu.main]]
+  identifier = 'About Us'
+  name = 'About Us'
+  post = ""
+  pre = ""
+  url = '/about-us/'
+  weight = 5
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact Us'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 5
+[params]
+ 
+[[params.socail]]
+url = "/"
+icon = "fab fa-facebook-f"
+[[params.socail]]
+url = "/"
+icon = "fab fa-twitter"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-linkedin-in"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-google-plus-g"
+
+[[params.socail]]
+url = "/"
+icon = "fab fa-instagram"
+
+[[params.footerlink]]
+  identifier = 'Home'
+  name = 'Home'
+  post = ""
+  pre = ""
+  url = '/'
+  weight = 1
+[[params.footerlink]]
+  identifier = 'About Us'
+  name = 'About Us'
+  post = ""
+  pre = ""
+  url = '/about-us/'
+  weight = 2
+[[params.footerlink]]
+  identifier = 'Healthcare Stafing'
+  name = 'Healthcare Stafing'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 3
+[[params.footerlink]]
+  identifier = 'IT Staffing'
+  name = 'IT Staffing'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 4
+[[params.footerlink]]
+  identifier = 'Terms of Services'
+  name = 'Terms of Services'
+  post = ""
+  pre = ""
+  url = '/terms-service/'
+  weight = 5
+[[params.footerlink]]
+  identifier = 'Privacy Policy'
+  name = 'Privacy Policy'
+  post = ""
+  pre = ""
+  url = '/privacy-policy/'
+  weight = 6
+[[params.footerlink]]
+  identifier = 'Contact US'
+  name = 'Contact US'
+  post = ""
+  pre = ""
+  url = '#'
+  weight = 7
+ 
+
+    
+
+[minify.tdewolff.html]
+keepWhitespace = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
