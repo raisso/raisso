@@ -1,4 +1,4 @@
-baseURL = 'https://raisso.github.io/raisso/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Raisso'
 
