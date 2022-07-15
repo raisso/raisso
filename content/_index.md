@@ -11,7 +11,7 @@ widgets:
           Momentous Medical
         text: |
           Staffing Solutions
-        image: /img/banner2.png
+        image: img/banner2.png
         button:
           enable: true
           label: "Learn More"
@@ -37,7 +37,7 @@ widgets:
         For any organization, recruiting the right talent is as crucial as it is cumbersome. We’re here to make it convenient! Our diligent team with the best **medical staffing solutions** facilitates your hiring process and helps you find the perfect additions that add skill, positivity and tremendous value to your organization.    
 
         And for Healthcare professionals, no matter full-time, travel-based, or remote, we are an ideal provider with varied opportunities in several fields like nursing, therapy, medical laboratory, imaging, oncology, cardiopulmonary, and neurodiagnostic.
-      image: /img/imgright.png
+      image: img/imgright.png
       button:
         enable: false
         label: "Learn More"
@@ -50,7 +50,7 @@ widgets:
         <span>Healthcare Staffing</span> services you can rely on! 
       text: | 
         Thanks to census fluctuations, seasonal needs, turnover issues, and whatnot, staffing needs can arise anytime! That’s where our exceptionally trained travel nurses will come to the rescue!
-      image: /img/health-bg.jpg
+      image: img/health-bg.jpg
       button:
         enable: true
         label: "Talk to our Travel Team"
@@ -66,7 +66,7 @@ widgets:
       text: |
         Raisso overtakes the entire recruitment process to locate, approach and close prospects   
         with stellar credentials best-suited for your organization.
-      image: /img/it-health.png
+      image: img/it-health.png
       lists:
       - heading: |
           Time Efficient
@@ -88,5 +88,5 @@ widgets:
           Comprehensive Training  
         text: |
           Our personnels are thoroughly and continually trained so they can upskill with time, enabling them to land better jobs and equipping you with valuable & skilled resources.
-ctaImage:  "/images/cta.jpg"
+ctaImage:  "images/cta.jpg"
 ---

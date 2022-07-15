@@ -21,7 +21,7 @@
           {{ end }}
           
           <div class="carousel-item {{ if eq $i 0 }} active{{end}}">
-            <img src="{{ .image }} " class="img-fluid" alt="">
+            <img src="{{ .image | absURL }}" class="img-fluid" alt="">
             <div class="carousel-caption text-end">
               <h1>{{.heading}}</h1>
               <h2><span>{{.subHeading}}</span></h2>
