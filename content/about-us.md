@@ -35,7 +35,7 @@ widgets:
       For more than 15 years, we’ve been one of the most respected brands in the staffing industry by preempting and skillfully fulfilling medical staffing needs of facilities in all 50 states through our nationwide network of adept and dedicated healthcare professionals. 
 
       In today’s day and age, an organization ought to be adaptive to keep up with the evolving needs of the environment. This becomes possible when organizations operate from a place of innovation and work towards problem solving; When the learning of individuals and of teams is harmonized. This is why adaptivity is prioritized here at Raisso. Feedback and reflection are part of our active learning processes. In doing so, we integrate the Guiding Principles in our day-to-day work.
-    image: img/imgright.png
+    image: /img/imgright.png
     button:
       enable: false
       label: "Learn More"
