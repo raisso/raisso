@@ -16,7 +16,7 @@ widgets:
           enable: true
           label: "Learn More"
           popup: ""
-          link: "/healthcare-staffing/"
+          link: "#"
           klass:
     - enable: true 
       type: feature
@@ -42,7 +42,7 @@ widgets:
         enable: false
         label: "Learn More"
         popup: ""
-        link: "/healthcare-staffing/"
+        link: "#"
         class:
     - enable: true
       type: cta
