@@ -48,17 +48,17 @@ widgets:
     - name: THOMAS SMITH
       position: client
       titleTextColor: "#fff"  
-      image: "img/testimonial1.jpg"
+      image: "/img/testimonial1.jpg"
       text: "Great Work, with excellent availability of resources and flexibility to personalize any type of website." 
     - name: ANGIE OTTIX
       position: client
       titleTextColor: "#fff"  
-      image: "img/testimonial2.jpg"
+      image: "/img/testimonial2.jpg"
       text: "Their service responded within a few minutes. So happy with this company and my customer loves it too! We will definitely use Raisoo again!" 
     - name: MARIO CRUISER
       position: client
       titleTextColor: "#fff"  
-      image: "img/testimonial3.jpg"
+      image: "/img/testimonial3.jpg"
       text: "Support took care of everything quickly and had us up and running within a few hours. Thank you so much for providing brilliant services. Highly recommended!" 
   - enable: true
     type: cta
