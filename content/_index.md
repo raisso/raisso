@@ -4,6 +4,7 @@ widgets:
   before:
     - enable: true
       type: hero
+      class: "health"
       lists:
       - heading: |
           Revolutionizing Healthcare with
@@ -12,6 +13,7 @@ widgets:
         text: |
           Staffing Solutions
         image: img/banner2.png
+        backgroundColor: "#0d4159"
         button:
           enable: true
           label: "Learn More"

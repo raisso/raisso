@@ -33,6 +33,16 @@
               {{ end }}
             </div>
           </div>
+
+          
+    <style>
+      #hero::before{
+        background: {{.backgroundColor}};
+      }
+      #hero::after{
+        background: linear-gradient(to right, rgba(21, 97, 104, 0.4), rgba(33, 148, 130, 0.6));
+      }
+    </style>
         {{end}}
       </div>
       {{ range $i, $data := .lists }}

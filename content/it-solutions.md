@@ -5,6 +5,7 @@ widgets:
     - enable: true
       type: hero
       tabs: it-solution
+      class: "it"
       lists:
       - heading: |
           Ingenious IT Solutions 
@@ -13,6 +14,7 @@ widgets:
         text: |
             of Healthcare with Raisso
         image: /img/banner.png
+        backgroundColor: "#219a88" 
         button:
           enable: true
           label: "Learn More"
