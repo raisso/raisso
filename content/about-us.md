@@ -66,7 +66,7 @@ widgets:
       <span>Healthcare Staffing</span> services you can rely on! 
     text: | 
       Thanks to census fluctuations, seasonal needs, turnover issues, and whatnot, **healthcare staffing** needs can arise anytime! That’s where our exceptionally trained travel nurses will come to the rescue!
-    image: img/health-bg.jpg
+    image: /img/health-bg.jpg
     bottomcurve: false
     button:
       enable: true
