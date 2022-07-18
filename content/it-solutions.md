@@ -19,7 +19,7 @@ widgets:
           enable: true
           label: "Learn More"
           popup: ""
-          link: "/healthcare-staffing/"
+          link: "#"
           klass:
     - enable: true 
       type: feature
